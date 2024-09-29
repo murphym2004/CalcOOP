@@ -30,6 +30,6 @@ public class calC {
     }
     public static void divide(int a, int b) {
         int remainder = a / b;
-        System.out.println("The  sum  is: " + remainder);
+        System.out.println("The sum is: " + remainder);
     }
 }

@@ -16,6 +16,7 @@ public class calC {
             case "add": add(a, b); break;
             case "multiply": multiply(a, b); break;
             case "divide":  divide(a, b); break;
+            case "subtract": subtract(a, b); break;
             default: System.out.println("invalid operation"); break;
         }
 
@@ -31,5 +32,9 @@ public class calC {
     public static void divide(int a, int b) {
         int remainder = a / b;
         System.out.println("The sum is: " + remainder);
+    }
+    public static void subtract(int a, int b) {
+        int difference = a - b;
+        System.out.println("The difference is: " + difference);
     }
 }

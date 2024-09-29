@@ -15,7 +15,7 @@ public class calC {
         switch (op) {
             case "add": add(a, b); break;
             case "multiply": multiply(a, b); break;
-
+            case "divide":  divide(a, b); break;
             default: System.out.println("invalid operation"); break;
         }
 
@@ -26,6 +26,10 @@ public class calC {
     }
     public static void multiply(int a, int b) {
         int product = a * b;
-        System.out.println("The product is: " + product);
+        System.out.println("The sum is: " + product);
+    }
+    public static void divide(int a, int b) {
+        int remainder = a / b;
+        System.out.println("The  sum  is: " + remainder);
     }
 }

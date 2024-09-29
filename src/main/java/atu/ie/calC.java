@@ -14,6 +14,8 @@ public class calC {
         String op = sc.next();
         switch (op) {
             case "add": add(a, b); break;
+            case "multiply": multiply(a, b); break;
+
             default: System.out.println("invalid operation"); break;
         }
 
@@ -21,5 +23,9 @@ public class calC {
     public static void add(int a, int b) {
         int sum = a + b;
         System.out.println("The sum is: " + sum);
+    }
+    public static void multiply(int a, int b) {
+        int product = a * b;
+        System.out.println("The product is: " + product);
     }
 }

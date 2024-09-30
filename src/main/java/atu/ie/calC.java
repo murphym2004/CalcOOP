@@ -17,6 +17,7 @@ public class calC {
             case "multiply": multiply(a, b); break;
             case "divide":  divide(a, b); break;
             case "subtract": subtract(a, b); break;
+            case "exponential": exp(a, b); break;
             default: System.out.println("invalid operation"); break;
         }
 
@@ -36,5 +37,9 @@ public class calC {
     public static void subtract(int a, int b) {
         int difference = a - b;
         System.out.println("The difference is: " + difference);
+    }
+    public static void exp(double a, double b) {
+        double exp = Math.exp(a - b);
+        System.out.println("The exp is: " + exp);
     }
 }
